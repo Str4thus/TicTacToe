@@ -1,0 +1,24 @@
+.tile {
+   -fx-fill: lightgray;
+   -fx-stroke: black;
+}
+
+.hovered {
+   -fx-fill: white;
+}
+
+.o {
+    -fx-text-fill: darkred;
+}
+
+.o:hover {
+    -fx-text-fill: red;
+}
+
+.x {
+    -fx-text-fill: darkblue;
+}
+
+.x:hover {
+    -fx-text-fill: blue;
+}
