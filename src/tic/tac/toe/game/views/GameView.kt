@@ -4,8 +4,12 @@ import javafx.animation.KeyFrame
 import javafx.animation.KeyValue
 import javafx.animation.Timeline
 import javafx.event.EventHandler
+import javafx.scene.control.Menu
+import javafx.scene.control.MenuBar
+import javafx.scene.control.MenuItem
 import javafx.scene.input.MouseEvent
 import javafx.scene.layout.Pane
+import javafx.scene.layout.VBox
 import javafx.scene.shape.Line
 import javafx.util.Duration
 import tic.tac.toe.game.enums.Player
@@ -20,7 +24,8 @@ class GameView(private val windowSize: Double) : Pane(), IView {
 
     override fun init(model: IModel) {
         stylesheets.add(this::class.java.classLoader.getResource("styles.css").toExternalForm())
-        setPrefSize(windowSize, windowSize)
+
+        setPrefSize(windowSize+3, windowSize+3) // +3 because of the menu bar
         refresh(model)
     }
 

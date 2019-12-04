@@ -19,9 +19,9 @@ class GameController(var game: Game, var view: GameView, clone: Boolean = false)
             handleClickOnTile(Position(clickedTile.x, clickedTile.y))
         }
     }
-    private val humanPlayer = Player.O
+    private val humanPlayer = Player.X
     private val aiPlayer = if (humanPlayer == Player.O) Player.X else Player.O
-    private var ai: ArtificialIntelligence = MiniMax(aiPlayer)
+    private var ai: ArtificialIntelligence = MiniMax(aiPlayer, 3)
 
     private var winner: Player = Player.None
     private var currentPlayer: Player = humanPlayer
@@ -215,8 +215,8 @@ class GameController(var game: Game, var view: GameView, clone: Boolean = false)
         game.addObserver(this)
         view.refresh(game)
         view.addClickHandler(ClickHandler())
+        currentPlayer = humanPlayer
 
-        switchPlayer()
         if (currentPlayer == ai.playsAs) {
 
             val moveToPlay = ai.act(this)

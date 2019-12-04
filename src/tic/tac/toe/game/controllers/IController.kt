@@ -1,11 +1,11 @@
 package tic.tac.toe.game.controllers
 
-import tic.tac.toe.ai.MiniMax.IDeepClonable
+import tic.tac.toe.ai.MiniMax.DeepClonable
 import tic.tac.toe.ai.MiniMax.MiniMaxAble
 import tic.tac.toe.game.enums.Player
 import tic.tac.toe.game.structures.Position
 
-interface IController : IModelObserver, IDeepClonable, MiniMaxAble {
+interface IController : IModelObserver, DeepClonable, MiniMaxAble {
     fun getBoard(): Array<Array<Player>>
     fun hasPlayerWon(move: Position, player: Player): Boolean
     fun switchPlayer()
