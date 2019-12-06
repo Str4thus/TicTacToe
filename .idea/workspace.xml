@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1b33c64-f518-44be-83e9-533602627558" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/lxpee.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/halloffame.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tic/tac/toe/helpers/HallOfFame.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$2$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$2$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$2$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$2$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$2$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$2$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/controller/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/GameView$addClickHandler$$inlined$forEach$lambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/GameView$addClickHandler$$inlined$forEach$lambda$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/GameView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/IView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/IView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/components/Tile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/components/Tile$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/components/Tile$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/components/Tile$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/components/Tile$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/components/Tile$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/components/Tile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/views/components/Tile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/TicTacToe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic/tac/toe/TicTacToe.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/controller/GameController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic/tac/toe/controller/GameController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/views/GameView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic/tac/toe/views/GameView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/views/IView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic/tac/toe/views/IView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/views/components/Tile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic/tac/toe/views/components/Tile.kt" afterDir="false" />
-    </list>
+    <list default="true" id="b1b33c64-f518-44be-83e9-533602627558" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,66 +11,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TicTacToe.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TicTacToe.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/TicTacToe.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+            <state relative-caret-position="208">
+              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
               <folding>
                 <element signature="e#21#520#0" expanded="true" />
                 <element signature="e#808#3954#2" />
                 <element signature="e#1287#1484#2" />
                 <element signature="e#1703#1900#2" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="halloffame.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/halloffame.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="HallOfFame.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/helpers/HallOfFame.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-              <folding>
-                <element signature="n#!!doc;n#loadData#0;n#!!block;n#Companion#0;n#!!block;n#HallOfFame#0" />
-                <element signature="n#!!block;n#loadData#0;n#!!block;n#Companion#0;n#!!block;n#HallOfFame#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameController.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/controller/GameController.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
-              <folding>
-                <element signature="n#!!block;n#initViewWithModel#0;n#!!block;n#GameController#0" />
-                <element signature="n#!!block;n#performAiTurn#0;n#!!block;n#GameController#0" />
-                <element signature="n#!!block;n#getBoardSize#0;n#!!block;n#GameController#0" />
-                <element signature="n#!!block;n#getWinningComboCount#0;n#!!block;n#GameController#0" />
-                <element signature="n#!!block;n#adjustAIDepth#0;n#!!block;n#GameController#0" />
-                <element signature="n#!!block;n#getAIDepth#0;n#!!block;n#GameController#0" />
-                <element signature="n#!!block;n#restart#1;n#!!block;n#GameController#0" />
-                <element signature="n#!!block;n#toggleAI#0;n#!!block;n#GameController#0" />
-                <element signature="n#!!block;n#updateView#0;n#!!block;n#GameController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameView.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/views/GameView.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#27#687#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,8 +55,8 @@
         <option value="$PROJECT_DIR$/resources/options.css" />
         <option value="$PROJECT_DIR$/resources/halloffame.css" />
         <option value="$PROJECT_DIR$/src/tic/tac/toe/TicTacToe.kt" />
-        <option value="$PROJECT_DIR$/halloffame.txt" />
         <option value="$PROJECT_DIR$/src/tic/tac/toe/helpers/HallOfFame.kt" />
+        <option value="$PROJECT_DIR$/halloffame.txt" />
       </list>
     </option>
   </component>
@@ -321,7 +244,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -331,7 +253,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32985386" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -457,22 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/TicTacToe.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
-          <folding>
-            <element signature="e#21#520#0" expanded="true" />
-            <element signature="e#808#3954#2" />
-            <element signature="e#1287#1484#2" />
-            <element signature="e#1703#1900#2" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/halloffame.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/controller/GameController.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -493,11 +399,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/helpers/HallOfFame.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="145">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
           <folding>
+            <element signature="e#29#104#0" expanded="true" />
             <element signature="n#!!doc;n#loadData#0;n#!!block;n#Companion#0;n#!!block;n#HallOfFame#0" />
             <element signature="n#!!block;n#loadData#0;n#!!block;n#Companion#0;n#!!block;n#HallOfFame#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halloffame.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/TicTacToe.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+          <folding>
+            <element signature="e#21#520#0" expanded="true" />
+            <element signature="e#808#3954#2" />
+            <element signature="e#1287#1484#2" />
+            <element signature="e#1703#1900#2" />
           </folding>
         </state>
       </provider>
