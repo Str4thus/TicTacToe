@@ -1,5 +1,6 @@
 package tic.tac.toe.views.components
 
+import javafx.application.Platform
 import javafx.geometry.Pos
 import javafx.scene.control.Label
 import javafx.scene.input.MouseEvent
@@ -56,6 +57,19 @@ class Tile(val x: Int, val y: Int, val size: Double) : StackPane() {
     }
 
     fun refuseClick() {
-        label.text = "N"
+        label.styleClass.add("refused")
+        val thread = Thread(Runnable {
+            val updater = Runnable { label.styleClass.remove("refused") }
+
+            try {
+                Thread.sleep(500)
+            } catch (ex: InterruptedException) {
+            }
+
+            Platform.runLater(updater)
+
+        })
+
+        thread.start()
     }
 }

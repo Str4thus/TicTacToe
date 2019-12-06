@@ -11,4 +11,5 @@ interface IView {
     fun displayWinner(combo: Combo)
     fun refuseMove(position: Vector2)
     fun addClickHandler(handler: IController)
+    fun promptHallOfFame(): String
 }

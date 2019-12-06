@@ -2,6 +2,7 @@ package tic.tac.toe.controller
 
 import ai.MiniMax
 import tic.tac.toe.enums.Player
+import tic.tac.toe.helpers.HallOfFame
 import tic.tac.toe.models.Game
 import tic.tac.toe.helpers.Vector2
 import tic.tac.toe.views.GameView
@@ -9,6 +10,7 @@ import tic.tac.toe.views.GameView
 class GameController(private var game: Game, val gameView: GameView) : IController {
     var againstAi = false
     private var ai = MiniMax(Player.O)
+    private var startTime = System.currentTimeMillis()
 
     init {
         initViewWithModel()
@@ -63,6 +65,7 @@ class GameController(private var game: Game, val gameView: GameView) : IControll
     override fun restart(newSize: Int, newWinningComboCount: Int) {
         game = Game(newSize, newWinningComboCount)
         initViewWithModel()
+        startTime = System.currentTimeMillis()
     }
 
 
@@ -82,6 +85,13 @@ class GameController(private var game: Game, val gameView: GameView) : IControll
 
             if (game.hasPlayerWon(game.currentPlayer)) {
                 gameView.displayWinner(game.winningCombo!!)
+
+                val score = (System.currentTimeMillis() - startTime).toDouble() / 1000
+                if (HallOfFame.belongsToHallOfFame(score)) {
+                    val name = gameView.promptHallOfFame()
+                    HallOfFame.add(name, score)
+                }
+
                 return
             }
 
@@ -95,8 +105,6 @@ class GameController(private var game: Game, val gameView: GameView) : IControll
         } else {
             gameView.refuseMove(position)
         }
-
-
     }
 
     override fun updateView(position: Vector2, player: Player) {

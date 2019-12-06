@@ -23,6 +23,10 @@
     -fx-text-fill: blue;
 }
 
-#yeet {
-    -fx-text-fill: red;
+.refused {
+    -fx-text-fill: black;
+}
+
+.refused:hover {
+    -fx-text-fill: black;
 }

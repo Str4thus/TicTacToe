@@ -3,14 +3,23 @@ package tic.tac.toe.views
 import javafx.animation.KeyFrame
 import javafx.animation.KeyValue
 import javafx.animation.Timeline
+import javafx.scene.Scene
+import javafx.scene.control.Button
+import javafx.scene.control.Label
+import javafx.scene.control.TextField
+import javafx.scene.layout.GridPane
 import javafx.scene.layout.Pane
 import javafx.scene.shape.Line
+import javafx.stage.Modality
+import javafx.stage.Stage
+import javafx.stage.StageStyle
 import javafx.util.Duration
 import tic.tac.toe.controller.IController
 import tic.tac.toe.enums.Player
 import tic.tac.toe.helpers.Combo
 import tic.tac.toe.helpers.Vector2
 import tic.tac.toe.views.components.Tile
+import java.awt.SystemColor.text
 
 class GameView(private val windowSize: Double) : Pane(), IView {
     private lateinit var clickHandler: IController
@@ -52,6 +61,37 @@ class GameView(private val windowSize: Double) : Pane(), IView {
                 KeyValue(line.endYProperty(), endTile.screenY)))
 
         timeLine.play()
+    }
+
+    override fun promptHallOfFame(): String {
+        val window = Stage()
+        window.initModality(Modality.APPLICATION_MODAL)
+        window.initStyle(StageStyle.UTILITY)
+        window.title = "Hall of Fame"
+        window.width = 300.0
+        window.height = 100.0
+
+        val nameLabel = Label("Enter your Name:")
+        val nameTextField = TextField()
+        val applyButton = Button("Enter!")
+        var hofName = ""
+        applyButton.setOnAction {
+            if (!nameTextField.text.isEmpty()) {
+                hofName = nameTextField.text
+                window.close()
+            }
+        }
+
+        val root = GridPane()
+
+        root.add(nameLabel, 0, 0)
+        root.add(nameTextField, 1, 0)
+        root.add(applyButton, 0, 2)
+
+        window.scene = Scene(root)
+        window.showAndWait()
+
+        return hofName
     }
 
     override fun setMark(position: Vector2, player: Player) {

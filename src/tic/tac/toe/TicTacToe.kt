@@ -1,7 +1,6 @@
 package tic.tac.toe
 
 import javafx.application.Application
-import javafx.beans.value.ChangeListener
 import javafx.scene.Scene
 import javafx.scene.control.*
 import javafx.scene.layout.GridPane
@@ -9,6 +8,7 @@ import javafx.stage.Modality
 import javafx.stage.Stage
 import javafx.stage.StageStyle
 import tic.tac.toe.controller.GameController
+import tic.tac.toe.helpers.HallOfFame
 import tic.tac.toe.models.Game
 import tic.tac.toe.views.GameView
 
@@ -119,12 +119,31 @@ class TicTacToe : Application() {
             window.showAndWait()
         }
 
-        val gameMenuScoreboard = MenuItem("Scoreboard")
-        gameMenuScoreboard.setOnAction {println("Show Scoreboard!") }
+        val gameMenuHallOfFame = MenuItem("Hall of Fame")
+        gameMenuHallOfFame.setOnAction {
+            val window = Stage()
+            window.initModality(Modality.APPLICATION_MODAL)
+            window.initStyle(StageStyle.UTILITY)
+            window.title = "Hall of Fame"
+            window.width = 250.0
+            window.height = 325.0
+
+
+            val hallOfFameLabel = Label()
+            hallOfFameLabel.styleClass.add("hall-of-fame")
+            hallOfFameLabel.text = HallOfFame.getHallOfFameString()
+
+            val root = GridPane()
+            root.stylesheets.add(this::class.java.classLoader.getResource("halloffame.css").toExternalForm())
+            root.add(hallOfFameLabel, 0, 0)
+
+            window.scene = Scene(root)
+            window.showAndWait()
+        }
 
         gameMenu.items.add(gameMenuRestart)
         gameMenu.items.add(gameMenuOptions)
-        gameMenu.items.add(gameMenuScoreboard)
+        gameMenu.items.add(gameMenuHallOfFame)
         menuBar.menus.add(gameMenu)
 
 
