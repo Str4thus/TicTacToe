@@ -22,3 +22,7 @@
 .x:hover {
     -fx-text-fill: blue;
 }
+
+#yeet {
+    -fx-text-fill: red;
+}

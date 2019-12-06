@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1b33c64-f518-44be-83e9-533602627558" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/options.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/ai/ArtificialIntelligence.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/ai/MiniMax/DeepClonable.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/ai/MiniMax/MiniMax.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/ai/MiniMax/MiniMaxAble.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/ai/MiniMax/Result.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/TicTacToe.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/controllers/GameController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/controllers/IController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/controllers/IModelObserver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/enums/GameState.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/enums/Player.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/models/Game.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/models/IModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/models/IObservable.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/structures/Combo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/structures/Position.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/views/GameView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/views/IView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/game/views/components/Tile.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe$start$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/TicTacToe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/tic/tac/toe/controller/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/TicTacToe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic/tac/toe/TicTacToe.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tic/tac/toe/controller/GameController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic/tac/toe/controller/GameController.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,12 +23,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TicTacToe.kt" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TicTacToe.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/TicTacToe.kt">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="86" column="47" lean-forward="true" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
+              <folding>
+                <element signature="e#21#520#0" expanded="true" />
+                <element signature="e#1287#1484#2" />
+                <element signature="e#1703#1900#2" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameView.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/views/GameView.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IController.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/controller/IController.kt">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameController.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/controller/GameController.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -59,6 +90,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/resources/dialog.css" />
+        <option value="$PROJECT_DIR$/resources/styles.css" />
+        <option value="$PROJECT_DIR$/resources/options.css" />
+        <option value="$PROJECT_DIR$/src/tic/tac/toe/TicTacToe.kt" />
+        <option value="$PROJECT_DIR$/src/tic/tac/toe/controller/GameController.kt" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -72,14 +114,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="TicTacToe" type="b2602c69:ProjectViewProjectNode" />
               <item name="TicTacToe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TicTacToe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TicTacToe" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TicTacToe" type="b2602c69:ProjectViewProjectNode" />
@@ -97,6 +144,20 @@
               <item name="TicTacToe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="toe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TicTacToe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TicTacToe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="toe" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TicTacToe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TicTacToe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="toe" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,21 +278,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32985386" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -277,8 +339,63 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/TicTacToe.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="221">
           <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#21#520#0" expanded="true" />
+            <element signature="e#1287#1484#2" />
+            <element signature="e#1703#1900#2" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/dialog.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/options.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/controller/IController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/TicTacToe.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="86" column="47" lean-forward="true" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
+          <folding>
+            <element signature="e#21#520#0" expanded="true" />
+            <element signature="e#1287#1484#2" />
+            <element signature="e#1703#1900#2" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/views/GameView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tic/tac/toe/controller/GameController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -339,6 +456,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
